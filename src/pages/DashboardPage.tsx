@@ -31,7 +31,7 @@ export default function DashboardPage() {
         }
       </span>
       {/* Conditional Rendering + Render Component */}
-      <>
+      <div className="mb-2 d-flex flex-column gap-2 mt-2">
         {
           registrants.map((r) => <UserRegisterCard
             id = {r.id}
@@ -44,7 +44,7 @@ export default function DashboardPage() {
             total={r.total}
           />)
         }
-      </>
+      </div>
     </div>
   );
 }
