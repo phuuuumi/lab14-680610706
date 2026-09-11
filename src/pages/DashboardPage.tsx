@@ -42,6 +42,7 @@ export default function DashboardPage() {
             shoes = {r.shoes}
             cap = {r.cap}
             total={r.total}
+            key={r.id}
           />)
         }
       </div>
