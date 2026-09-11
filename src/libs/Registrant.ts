@@ -1,9 +1,12 @@
 interface Registrant {
-  id: number; 
+  id: string;
   fullName: string;
-  gender: string; 
-  plan: string; 
+  gender: string;
+  plan: string;
+  bottle: boolean;
+  shoes: boolean;
+  cap: boolean;
   total: number;
 }
-export type { Registrant };
 
+export type {Registrant}
