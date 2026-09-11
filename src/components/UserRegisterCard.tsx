@@ -9,7 +9,7 @@ const plans = [
 
 
 export default function UserRegisterCard({
-  id,
+  // id,
   fullName,
   plan,
   gender,
